@@ -11,13 +11,78 @@
 </head>
 <body>
     <!-- Header Content -->
-    <header></header>
+    <header class="main-header">
+        <!-- Logo Website -->
+        <div class="main-logo"></div>
+
+        <!-- Navigasi Website -->
+         <nav>
+            <a href="#home">Home</a>
+            <a href="#our-profile">Our Profile</a>
+            <a href="#our-facilities">Our Facilities</a>                
+            <a href="#message-us">Message Us</a>
+         </nav>
+    </header>
+
+    <hr>
 
     <!-- Main Content -->
-    <main></main>
+    <main>
+        <!-- Home Section -->
+         <section id="home">
+            <h1>Welcome to Zuhdim's Portfolio</h1>
+            <p>This is a simple portfolio website template.</p>
+
+            <!-- Banner Section -->
+            <div class="banner-img"></div>
+         </section>
+<hr>
+        <!-- Our Profile Section -->
+         <section id="our-profile">
+            <h1>Our Profile</h1>
+            <p>We are a team of dedicated professionals committed to delivering high-quality services.</p>
+         </section>
+<hr>
+
+        <!-- Our Facilities Section -->
+         <section id="our-facilities">
+            <h1>Our Facilities</h1>
+            <p>We offer a range of facilities to ensure the best experience for our clients.</p>
+         </section>
+<hr>
+        <!-- Message Us Section -->
+         <section id="message-us">
+            <h1>Message Us</h1>
+            <p>If you have any questions or inquiries, feel free to reach out to us.</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+
+                <label for="birth-date">Tanggal Lahir:</label>
+                <input type="date" id="birth-date" name="birth-date" required>
+                <br>
+
+                <label for="gender">Jenis Kelamin:</label>
+                <input type="radio" id="Laki-Laki" name="Laki-Laki" value="Laki-Laki" required>
+                <label for="Laki-Laki">Laki-Laki</label>
+                <input type="radio" id="Perempuan" name="Perempuan" value="Perempuan" required>
+                <label for="Perempuan">Perempuan</label>
+                <br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+
+                <button type="submit">Send Message</button>
+            </form>
+         </section>
+    </main>
 
     <!-- Footer Content -->
-     <footer></footer>
+     <footer>
+        <p>&copy; 2025 Zuhdim. All rights reserved.</p>
+     </footer>
     
 </body>
 </html>

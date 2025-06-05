@@ -1,0 +1,41 @@
+/* Header Component */
+.main-header {
+    display: flex;
+    justify-content: space-between
+}
+.main-logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://png.pngtree.com/png-clipart/20200720/original/pngtree-baby-dummy-newbie-nipple-noob-purple-business-logo-template-png-image_4358059.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+/* Navbar Component */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    border: 1px solid #000;
+    padding: 8px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 4px;
+}
+.banner-img {
+    height: 350px;
+    background-image: url(https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    height: 500px;
+}
+
+/* Footer Component */
+footer {
+    text-align: center;
+}
