@@ -7,6 +7,7 @@
 
     <!-- CSS Eksternal -->
     <link rel="stylesheet" href="css\style.css">
+   
 
 </head>
 <body>
@@ -34,7 +35,10 @@
             <p>This is a simple portfolio website template.</p>
 
             <!-- Banner Section -->
-            <div class="banner-img"></div>
+            <div class="banner-img img-1"></div>
+            <div class="banner-img img-2"></div>
+            <div class="banner-img img-3"></div>
+            
          </section>
 <hr>
         <!-- Our Profile Section -->
@@ -54,9 +58,9 @@
          <section id="message-us">
             <h1>Message Us</h1>
             <p>If you have any questions or inquiries, feel free to reach out to us.</p>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+            <form>
+                <label for="name-input">Name:</label>
+                <input type="text" id="name-input" value>
                 <br>
 
                 <label for="birth-date">Tanggal Lahir:</label>
@@ -74,9 +78,10 @@
                 <textarea id="message" name="message" rows="4" required></textarea>
                 <br>
 
-                <button type="submit">Send Message</button>
+                <button onclick="validateForm();" type="button">Submit</button>
             </form>
          </section>
+         <script src="js/script.js"></script>
     </main>
 
     <!-- Footer Content -->

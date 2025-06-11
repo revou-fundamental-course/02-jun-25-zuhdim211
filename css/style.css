@@ -26,9 +26,17 @@ nav a {
 }
 .banner-img {
     height: 350px;
-    background-image: url(https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80);
     background-size: cover;
     background-position: center;
+}
+.img-1 {
+    background-image: url(https://images.unsplash.com/photo-1749498451383-3743a22bec42?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D);
+}
+.img-2 {
+    background-image: url(https://images.unsplash.com/photo-1615226883732-3d04fd67c298?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.img-3 {
+    background-image: url(https://images.unsplash.com/photo-1749569338796-cc9cc311467d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 
 section {
