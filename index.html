@@ -2,57 +2,100 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio Website - Zuhdim</title>
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+
     <!-- CSS Eksternal -->
     <link rel="stylesheet" href="css\style.css">
-   
+   </head>
 
-</head>
 <body>
-    <!-- Header Content -->
-    <header class="main-header">
-        <!-- Logo Website -->
-        <div class="main-logo"></div>
-
-        <!-- Navigasi Website -->
-         <nav>
-            <a href="#home">Home</a>
-            <a href="#our-profile">Our Profile</a>
-            <a href="#our-facilities">Our Facilities</a>                
-            <a href="#message-us">Message Us</a>
-         </nav>
-    </header>
-
-    <hr>
-
-    <!-- Main Content -->
-    <main>
-        <!-- Home Section -->
-         <section id="home">
-            <h1>Welcome to Zuhdim's Portfolio</h1>
+   <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">kopi<span>kita</span>.</a>
+   
+      <div class="navbar-nav">
+         <a href="#home">Home</a>
+         <a href="#about">Tentang Kami</a>
+         <a href="#menu">Menu</a>
+         <a href="#contact">Kontak</a>
+      </div>
+        
+      <div class="navbar-extra">
+         <a href="#" id="search"><i data-feather="search"></i></a>
+         <a href="#" id="mail"><i data-feather="mail"></i></a>
+         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+   <!-- Navbar End -->
+    
+   <!-- Hero Section start-->
+   <section class="hero" id="home">
+      <main class="content">
+            <h1>Welcome to Zuhdi <span>Portofolio</span></h1>
             <p>This is a simple portfolio website template.</p>
 
             <!-- Banner Section -->
             <div class="banner-img img-1"></div>
             <div class="banner-img img-2"></div>
             <div class="banner-img img-3"></div>
+      </main>
             
+   </section>
+        <!-- About Section start-->
+         <section id="about" class="about">
+            <h2><span>Tentang</span> Kami</h2>
+            <div class="row">
+               <div class="about-img">
+                  <img src="../img/4.jpg" alt="Tentang Kami">
+               </div>
+               <div class="content">
+               <h3>Kenapa meimilih kopi kita?</h3>
+               <p>Kami menyediakan berbagai jenis kopi berkualitas tinggi yang dipilih dengan cermat untuk memastikan pengalaman terbaik bagi pelanggan kami.</p>
+               <p>Kami percaya bahwa setiap cangkir kopi harus memberikan kenikmatan yang tak terlupakan.</p>
+               </div>
+            </div>
          </section>
-<hr>
-        <!-- Our Profile Section -->
-         <section id="our-profile">
-            <h1>Our Profile</h1>
-            <p>We are a team of dedicated professionals committed to delivering high-quality services.</p>
-         </section>
-<hr>
 
-        <!-- Our Facilities Section -->
-         <section id="our-facilities">
-            <h1>Our Facilities</h1>
-            <p>We offer a range of facilities to ensure the best experience for our clients.</p>
-         </section>
+        <!-- Our Menu -->
+        <section id="menu" class="menu">
+         <h2><span>Menu</span> Kami</h2>
+            <p>Kami menyediakan berbagai jenis kopi berkualitas tinggi yang dipilih dengan cermat untuk memastikan pengalaman terbaik bagi pelanggan kami.</p>
+
+            <div class="row">
+               <div class="menu-card">
+                  <img src="../img/menu-1.jpg" alt="Kopi Susu">
+                  <h3 class="menu-card-tittle">Kopi Susu</h3>
+                  <p class="menu-card-price">Rp. 20.000</p>
+               </div>
+               <div class="menu-card">
+                  <img src="../img/menu-1.jpg" alt="Kopi Susu">
+                  <h3 class="menu-card-tittle">Kopi Susu</h3>
+                  <p class="menu-card-price">Rp. 20.000</p>
+               </div>
+               <div class="menu-card">
+                  <img src="../img/menu-1.jpg" alt="Kopi Susu">
+                  <h3 class="menu-card-tittle">Kopi Susu</h3>
+                  <p class="menu-card-price">Rp. 20.000</p>
+               </div>
+               <div class="menu-card">
+                  <img src="../img/menu-1.jpg" alt="Kopi Susu">
+                  <h3 class="menu-card-tittle">Kopi Susu</h3>
+                  <p class="menu-card-price">Rp. 20.000</p>
+               </div>
+         </div>
+         </div>
+      </section>
 <hr>
         <!-- Message Us Section -->
          <section id="message-us">
@@ -81,13 +124,19 @@
                 <button onclick="validateForm();" type="button">Submit</button>
             </form>
          </section>
-         <script src="js/script.js"></script>
+         
     </main>
 
     <!-- Footer Content -->
      <footer>
         <p>&copy; 2025 Zuhdim. All rights reserved.</p>
      </footer>
-    
+
+     <!-- Icons -->
+     <script>
+      feather.replace();
+    </script>
+      <!-- JavaScript -->
+    <script src="js/script.js"></script>
 </body>
 </html>
